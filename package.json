@@ -1,0 +1,29 @@
+{
+  "name": "dungeon-bot",
+  "version": "0.0.1",
+  "description": "A simple dungeon bot used to see which of your team members are online.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xenfo/Dungeon-Bot.git"
+  },
+  "keywords": [
+    "Xenfo",
+    "Dungeon",
+    "Bot"
+  ],
+  "author": "Xenfo, Samuel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Xenfo/dungeon-bot/issues"
+  },
+  "homepage": "https://github.com/Xenfo/dungeon-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "mongoose": "^5.10.6",
+    "node-fetch": "^2.6.1"
+  }
+}
