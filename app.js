@@ -1,7 +1,7 @@
 const fs = require('fs');
 const Discord = require('discord.js');
 const mongoose = require('mongoose');
-const { prefix, token, mongoDB } = require('./config.json');
+const { prefix, botToken, mongoDBToken } = require('./config.json');
 const { version } = require('./package.json');
 
 const client = new Discord.Client();
@@ -16,7 +16,7 @@ for (const file of commandFiles) {
   client.commands.set(command.name, command);
 }
 
-mongoose.connect(mongoDB, {
+mongoose.connect(mongoDBToken, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true
@@ -88,4 +88,4 @@ client.on('message', (message) => {
   }
 });
 
-client.login(token);
+client.login(botToken);
