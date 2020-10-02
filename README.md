@@ -6,9 +6,9 @@ Hypixel Dungeon Bot is a Discord bot created for [Hypixel's](https://hypixel.net
 ## Features
 
  * Verification system to verify players IGNs.
- * Hypixel rank assignment(Auto giving MVP++, VIP, etc)
  * Commands to track and see stats for skills, slayers, bank, auction house, talismans, & pets.
  * Command to check if your teammates are online. It also lists them from best to worse using their catacombs level.
+ * More coming soon.
  
 <hr>
 
@@ -16,6 +16,7 @@ Hypixel Dungeon Bot is a Discord bot created for [Hypixel's](https://hypixel.net
 
  - [Prerequisites](#prerequisites)
  - [Installing Hypixel Dungeon Bot](#installing-hypixel-dungeon-bot)
+ - [Updating Hypixel Dungeon Bot](#updating-hypixel-dungeon-bot)
  - [Configuration](#configuration)
  - [Third Party Licenses](#third-party-licenses)
  - [License](#license)
@@ -47,6 +48,20 @@ After you're finished editing the config with your personal details, run the bot
     node app.js
     
 If the bot starts up without any errors it should now work, and you can invite it to Discord servers.
+
+### Updating Hypixel Dungeon Bot
+    
+To update the bot to the latest version go into the `Hypixel-Dungeon-Bot` folder.
+    
+    git pull https://github.com/Xenfo/Hypixel-Dungeon-Bot.git
+    
+Next we will update the dependencies using:
+  
+    npm install
+    
+After the dependencies have finished installing start the bot.
+
+    node app.js
     
 ### Configuration
 
