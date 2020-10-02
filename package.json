@@ -1,6 +1,6 @@
 {
   "name": "dungeon-bot",
-  "version": "0.0.1",
+  "version": "0.2.0",
   "description": "A simple dungeon bot used to see which of your team members are online.",
   "main": "app.js",
   "scripts": {

@@ -12,16 +12,6 @@ const playerSchema = new mongoose.Schema({
     default: false,
     unique: true,
     required: true
-  },
-  rank: {
-    type: String,
-    default: false,
-    required: true
-  },
-  discord: {
-    type: String,
-    default: false,
-    unique: true
   }
 });
 

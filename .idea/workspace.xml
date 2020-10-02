@@ -20,10 +20,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89dd3139-e061-423c-b842-c46e763bacc0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/stat/auction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/stat/dungeons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/stat/pets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/stat/skills.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/stat/slayers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/stat/talisman.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/team/rename.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/team/team.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/utility/help.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/utility/verify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/paginate.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/add.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/team/add.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/remove.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/stat/bank.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/rename.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/team.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/team/remove.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/players.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/players.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,12 +78,13 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\chous.DESKTOP-BS58EI3\Desktop\Projects\Discord Bots\Dungeon-Bot\commands\team" />
+      <recent name="C:\Users\chous.DESKTOP-BS58EI3\Desktop\Projects\Discord Bots\Dungeon-Bot" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\chous.DESKTOP-BS58EI3\Desktop\Projects\Discord Bots\Dungeon-Bot" />
       <recent name="C:\Users\chous.DESKTOP-BS58EI3\Desktop\Projects\Discord Bots\Dungeon-Bot\commands" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\chous.DESKTOP-BS58EI3\Desktop\Projects\Discord Bots\Dungeon-Bot" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -84,7 +102,10 @@
       <workItem from="1601040348813" duration="379000" />
       <workItem from="1601047699435" duration="48000" />
       <workItem from="1601308836011" duration="336000" />
-      <workItem from="1601309325668" duration="2863000" />
+      <workItem from="1601309325668" duration="3152000" />
+      <workItem from="1601382358723" duration="8270000" />
+      <workItem from="1601395310930" duration="7594000" />
+      <workItem from="1601416365181" duration="4216000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1600902081500</created>
@@ -93,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600902081500</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update">
+      <created>1601313020062</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601313020062</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,7 +141,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="501" y="203" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600949410950">
@@ -128,18 +157,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="94" y="94" width="1349" height="637" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1601309778983" />
-    <state x="550" y="168" key="FileChooserDialogImpl" timestamp="1601310743517">
+    <state x="550" y="168" key="FileChooserDialogImpl" timestamp="1601419601496">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="550" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601310743517" />
+    <state x="550" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601419601496" />
     <state x="279" y="58" key="SettingsEditor" timestamp="1600965240514">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="279" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1600965240514" />
-    <state x="362" y="128" key="Vcs.Push.Dialog.v2" timestamp="1600902118715">
+    <state x="362" y="128" key="Vcs.Push.Dialog.v2" timestamp="1601313029717">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="362" y="128" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600902118715" />
+    <state x="362" y="128" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601313029717" />
     <state x="94" y="94" width="1349" height="637" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1601310723461">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -148,13 +177,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="94" y="94" width="1349" height="637" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1601309778983" />
+    <state x="478" y="129" width="580" height="624" key="find.popup" timestamp="1601419405402">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="478" y="129" width="580" height="624" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1601419405402" />
     <state x="570" y="309" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1600956233404">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="570" y="309" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824@0.0.1536.824" timestamp="1600956233404" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1600969294512">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1601419387036">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1600969294512" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1601419387036" />
   </component>
 </project>
